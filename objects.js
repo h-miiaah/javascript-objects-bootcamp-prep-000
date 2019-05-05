@@ -15,4 +15,4 @@ function removeFromPlaylist(thePlaylist, artistName){
   return thePlaylist;
 };
 
-removeFromPlaylist(playlist, artistName1);
+removeFromPlaylist(playlist, "artistName1");
