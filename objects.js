@@ -3,3 +3,7 @@ var playlist {
   artistName2: "songTitle2",
   artistName3: "songTitle3"
 };
+
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign({}, playlist, {[artistName]: songTitle})
+};
